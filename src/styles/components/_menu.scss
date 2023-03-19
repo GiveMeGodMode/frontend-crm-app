@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+
+  &__list {
+    display: flex;
+    width: 503px;
+    height: 19px;
+    justify-content: space-between;
+    margin: 0 137px 0 52px;
+    z-index: 1;
+  }
+
+  &__link {
+    font-family: $inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text-color;
+  }
+}

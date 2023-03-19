@@ -1,0 +1,22 @@
+.mob-menu {
+  padding: 20px 16px;
+  position: fixed;
+  width: 100%;
+  background-color: $main-bgc;
+  z-index: 3;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font-family: $inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $text-color;
+  }
+}

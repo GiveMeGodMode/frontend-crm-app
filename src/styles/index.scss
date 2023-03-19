@@ -1,0 +1,9 @@
+@import url(../assets/fonts/Inter/stylesheet.css);
+@import url(../assets/fonts/Montserrat/stylesheet.css);
+@import url(/node_modules/normalize-scss/sass/_normalize.scss);
+@import "./components/allstyles";
+
+body {
+  background: $main-bgc;
+  box-sizing: border-box;
+}
